@@ -9,11 +9,11 @@ h3 {
 }
 
 .pic {
+    display: block;
     width: 170px;
     height: 170px;
     border-radius: 50%;
     margin: auto;
-    background-image: url(../img/abt.png);
     background-size: cover;
     background-origin: padding-box;
 }
@@ -34,4 +34,3 @@ h3 {
     text-align: left;
     margin-left: 30px;
 }
-
