@@ -14,21 +14,20 @@ header{
   padding: 1% 0;
 }
 
-/* 編集箇所*/
-.main-visual .container{
-  max-width:1000px;
-  margin:0px auto;
-  padding:80px 0px;
+.top-text{
+  text-align: center;
+  background-color: inherit;
+  font-size: 10vw;
+  font-family: "myfont";
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(AlsScript-KdrD.ttf) format("opentype");
 }
 
 .content img {
   width: 100%;
-}
-
-.profile .container{
-  max-width:1000px;
-  margin:0px auto;
-  padding:80px 0px;
 }
 
 .grid{
@@ -37,12 +36,11 @@ header{
   grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
   margin: 0 50px;
 }
+/* ã“ã“ã¾ã§ */
 
-.grid li {
+.item li {
   list-style: none;
-  
 }
-/* ここまで */
 
 footer{
   background-color: #2A7DFB;
